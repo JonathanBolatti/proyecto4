@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pet-Shop></title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-sup">
+                <span class="nav-span">Grandes ofertas en comederos</span>
+                <div class="idioma-moneda">
+                    <select id="idioma" name="idioma" value="Seleccionar" required class="select-idioma">
+                        <option value="ar">Español</option>
+                        <option value="ch">Ingles</option>
+                        <option value="br">Frances</option>
+                    </select>
+                    <select id="moneda" name="moneda" value="Seleccionar" required class="select-moneda">
+                        <option value="ar">$ARS</option>
+                        <option value="ch">$USD</option>
+                        <option value="br">€EUR</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="nav-menu">
+                <div class="logo-nav">
+                    <img class="logo-nav" src="img/Logo.png" alt="imagen del logo">
+                </div>
+                <div class="nav-items">
+                    <a href=""><i class="fas fa-paw"></i>Categorias</a>
+                    <a href=""><i class="fas fa-paw"></i>Pets</a>
+                    <a href=""><i class="fas fa-paw"></i>Nosotros</a>
+                    <a href=""><i class="fas fa-paw"></i>Contáctanos</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="portada">
+            <img src="img/bowl-and-pet-daities-on-green-background 1.png" alt="aca va el slider" class="portada-img">
+            <div class="elementos-portada">
+                <h1>¡Es un placer tenerte aqui!</h1>
+                <sub>!Comederos en descuento!</sub>
+                <a href="#">
+                    <button>COMEDEROS</button>
+                </a>
+            </div>
+        </section>
+        <section class="tienda-shop">
+            <div class="tienda-container">
+                <div class="tienda-title">
+                    <i class="fas fa-paw"></i>
+                    <h2>Productos Destacados</h2>
+                </div>
+                <div class="link-shop">
+                    <a href="">Comederos</a>
+                    <b>-</b>
+                    <a href="">Accesorios</a>
+                    <b>-</b>
+                    <a href="">Comida</a>
+                </div>
+                <article class="container-cards">
+                    <div class="card">
+                        <img src="img/churrasquito.png" alt="imagen del producto tienda">
+                        <div class="card-texts">
+                            <h3>Juguete Churrasquito</h3>
+                            <p>$150</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/comedero.png" alt="imagen del producto tienda">
+                        <div class="card-texts">
+                            <h3>Juguete Churrasquito</h3>
+                            <p>$250</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/Huesito.png" alt="imagen del producto tienda">
+                        <div class="card-texts">
+                            <h3>Juguete Churrasquito</h3>
+                            <p>$650</p>
+                        </div>
+                    </div>
+                </article>
+                <section class="form-contac">
+
+                    <form action="">
+                        <h2>Contáctanos</h2>
+                        <div class="grupo">
+                            <input class="input" type="text" name="" id="nombre" required
+                                placeholder="Nombre y Apellido">
+                            <!-- <label class="label" for="nombre">Nombre</label> -->
+                        </div>
+                        <div class="grupo">
+                            <input class="input" type="email" name="" id="mail" required
+                                placeholder="Ingresa tu correo electrónico">
+                            <!-- <label class="label" for="">Email</label> -->
+                        </div>
+                        <div class="grupo">
+                            <input class="input" type="number" name="" id="telefono" required placeholder="Teléfono">
+                            <!-- <label class="label" for="">Telefono</label> -->
+                        </div>
+                        <div class="grupo">
+                            <div class="buttons-cta">
+                                <button class="button-reset" type="reset">Resetear</button>
+                                <button class="button-register" type="submit">Enviar</button>
+                            </div>
+                        </div>
+                </section>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+
+        <section class="footer-section">
+            <div class="footer-suscripcion">
+                <i class="fas fa-envelope-open-text icon-h3"></i>
+                <h3> Suscríbete para más novedades</h3>
+                <form>
+                    <input type="text" class="newsletter_input" placeholder="Ingresa tu email">
+                    <input type="submit" class="newsletter_submit" value="Suscribirse">
+                </form>
+            </div>
+
+             <div class="footer-contac">
+                <div class="footer-contac-icon">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <i class="fas fa-phone-square-alt"></i>
+                    <i class="fas fa-at"></i>
+                </div>
+
+                <div class="footer-contac-medium">
+                    <p>Localidad</p>
+                    <h4>Golden Retriever 45 - Córdoba</h4>
+
+                    <p class="footer-p">Teléfono</p>
+                    <h4 class="footer-h4">0800-petshop</h4>
+
+                    <p>Correo Electrónico</p>
+                    <h4>consultas@per-shop.com.ar</h4>
+                </div>
+                
+                <div class="logo-footer">
+                    <img class="logo-nav" src="img/Logo-footer.png" alt="imagen del logo">
+                </div>
+            </div>
+                
+            <div class="footer-end">
+                <i class='bx bx-copyright contact__icon'></i>
+                <h3 class="contact__title">Copyright © 2021 | Desarrollado por Jonathan Bolatti | Front End I</h3>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/5208273844.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
